@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+     background-image:url('../images/background.jpg'); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family: 'Lobster Two', cursive;
+    color:white;
+     text-align: center; 
+}
+.container
+{
+    max-width:540px;
+    margin:auto;
+}
+
+header .container img {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+ header .container h1 {
+    margin-bottom:35px;
+    font-size:50px;
+}
+ header .container h1:hover{
+    color:red;
+    text-shadow:3px 3px black;
+}
+ header .navbar
+{
+    background-color:rgba(0,0,0,0.6);
+    height:40px;
+    padding:5px;
+}
+
+ header nav {
+    margin-bottom:40px;
+}
+ header nav ul{
+    list-style-type:none;
+}
+ header nav ul li{
+    display:inline;
+    margin:10px;
+}
+ header nav ul li a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+}
+ header nav ul li a:hover{
+    color:red;
+    text-shadow:3px 3px black;
+    font-size:30px;
+}
+.container article{
+    margin-bottom:40px;
+}
+.container article h2{
+    margin-top:15px;
+    margin-bottom:25px;
+    font-size:25px;
+}
+.container article h2:hover{
+    color:red;
+    text-shadow:3px 3px black;
+}
+.container article p{
+    margin-bottom:15px;
+}
+.container article button{
+    width:80px;
+    font-family: 'Lobster Two', cursive;
+}
+.container article button:hover{
+    color:blue;
+    font-size:20px;
+}
