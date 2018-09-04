@@ -7,6 +7,7 @@ html,body{
      background-image:url('../images/background.jpg'); 
     background-size:cover;
     background-repeat:no-repeat;
+     background-attachment: fixed; 
     font-family: 'Lobster Two', cursive;
     color:white;
      text-align: center; 
@@ -22,7 +23,7 @@ header .container img {
     margin-bottom:50px;
 }
  header .container h1 {
-    margin-bottom:35px;
+    margin-bottom:30px;
     font-size:50px;
 }
  header .container h1:hover{
@@ -37,7 +38,8 @@ header .container img {
 }
 
  header nav {
-    margin-bottom:40px;
+    margin-bottom:10px;
+    margin-top:7px;
 }
  header nav ul{
     list-style-type:none;
@@ -48,20 +50,22 @@ header .container img {
 }
  header nav ul li a{
     color:white;
-    font-size:20px;
+    font-size:larger;
     text-decoration:none;
+     transition:all 0.3s ease-in-out 0s; 
 }
  header nav ul li a:hover{
     color:red;
     text-shadow:3px 3px black;
-    font-size:30px;
+    font-size:x-large;
 }
 .container article{
-    margin-bottom:40px;
+    margin-bottom:30px;
+    overflow:hidden;
 }
 .container article h2{
     margin-top:15px;
-    margin-bottom:25px;
+    margin-bottom:20px;
     font-size:25px;
 }
 .container article h2:hover{
@@ -69,13 +73,29 @@ header .container img {
     text-shadow:3px 3px black;
 }
 .container article p{
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 .container article button{
     width:80px;
     font-family: 'Lobster Two', cursive;
+    transition:all 0.3s ease-in-out 0s;
 }
 .container article button:hover{
     color:blue;
     font-size:20px;
+}
+footer{
+    height:70px;
+    background-color:rgba(0,0,0,0.9);
+}
+
+footer div{
+    margin:5px;
+}
+footer .icons{
+    margin-bottom:0
+}
+
+footer .icons i{
+    margin-right: 15px;
 }
