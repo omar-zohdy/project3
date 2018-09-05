@@ -85,17 +85,17 @@ header .container img {
     font-size:20px;
 }
 footer{
-    height:70px;
+    height:105px;
     background-color:rgba(0,0,0,0.9);
 }
 
 footer div{
-    margin:5px;
+    margin-top:5px;
 }
 footer .icons{
     margin-bottom:0
 }
 
-footer .icons i{
-    margin-right: 15px;
+footer .icons img{
+    margin-right: 5px;
 }
